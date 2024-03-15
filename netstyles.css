@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    @media screen and (min-width: 960px) {
+        width: 100%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+.main {
+    display: grid;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin-left: 12vw;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: red;
+    font-size: 42px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 19px;
+    margin-top: 5px;
+    width: 5px;
+    font-weight: bold;
+    border-radius: 66px;
+    clip: rect(0 0 0 0);
+    height: 1px;
+}
+
+.language-menu {
+    margin: 20px;
+}
+
+/* Style for the select element */
+#language-select {
+    padding-left: 46px;
+    font-size: 19px;
+    border-radius: 10px;
+    color: #ccc;
+    height: 34px;
+    margin-left: 672px;
+    background-color: transparent;
+    /* Set the background to transparent */
+}
+
+#language-select:focus {
+    color: black;
+    /* Set the text color to black when dropdown is active */
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+
+.btn:hover {
+    color: #000;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+
+.btnn {
+    @media screen and (min-width: 960px) {
+        width: 130px;
+        height: 35px;
+        background: red;
+        border: none;
+        margin-top: 30px;
+        margin-left: 15px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #fff;
+        transition: 0.4s ease;
+    }
+}
+
+.btnntext{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(41, 34, 34);
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn:focus{
+    outline: none;
+}
+
+.heading {
+    @media screen and (min-width: 960px) {
+        font-size: 3rem;
+        font-weight: 900;
+        color: white;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    }
+}
+
+.heading {
+    width: 76vw;
+    margin-left: 11vw;
+    text-align: center;
+    margin-top: 2.5vw;
+}
+
+.heading2 {
+    @media screen and (min-width: 960px) {
+        color: white;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+.heading2 {
+    text-align: center;
+    margin-top: 18vw;
+    font-size: 25px;
+    margin-left: 40vw;
+}
+
+
+.heading3 {
+    @media screen and (min-width: 960px) {
+        color: white;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+.heading3 {
+    margin-left: 29vw;
+    margin-right: 6vw;
+    font-size: 20px;
+}
+
+.form {
+    border-radius: 10px;
+}
+
+.form input {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    width: 330px;
+    height: 36px;
+    border: 1px solid #746d68;
+    margin-top: 13px;
+    color: wheat;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-left: 31.5vw;
+}
+
+.form ::placeholder {
+    color: white;
+}
+
+.form ::placeholder :hover{
+        background: #aea9a9;
+}
+
+.btnemail {
+    width: 177px;
+    height: 58px;
+    background: red;
+    margin-top: 13px;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 22.5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btnemail:hover{
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnemailtext {
+    text-decoration-line: none;
+    font-weight: bold;
+    color: rgb(41, 34, 34);
+}
+
+.container {
+    @media screen and (min-width: 960px) {
+        margin-top: 10px;
+    }
+}
+
+
+
+section {
+    background-image: url('https://imgur.com/xz2xZok');
+    /* Replace 'your-background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
